@@ -1,0 +1,1335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+		<!-- Facebook sharing information tags -->
+		<meta content="*|MC:SUBJECT|*" property="og:title"/>
+		<title>*|MC:SUBJECT|*</title>
+		<style type="text/css">
+/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+			
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+			table td{border-collapse:collapse;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+			
+			/* Template Styles */
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+			
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border: 1px solid #DDDDDD;
+			}
+			
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#FFFFFF;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ line-height:100%;
+				margin-top:15px;
+				margin-right:0;
+				margin-bottom:0px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#1b2d7c;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:19px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:rgb(252, 252, 252);
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+			
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h5, .h5{
+				/*@editable*/ color:#1b2d7c;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:15px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:15px;
+				margin-right:0;
+				margin-bottom:5px;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-bottom:0;
+			}
+			
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+			
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			#headerImage{
+				height:auto;
+				max-width:750px;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY & FULL-WIDTH BAND /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited, /* Yahoo! Mail Override */ .bodyContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+
+
+			.fullWidthBandContent div a:link, .fullWidthBandContent div a:visited, /* Yahoo! Mail Override */ .fullWidthBandContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#CCCCCC;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.fullWidthBandContent img{
+				display:inline;
+				height:auto;
+			}
+
+			.fullWidthBandContent{
+				background-color: #1b2d7c;
+			}
+			
+			.fullWidthBandContent div{
+				/*@editable*/ color:#CCCCCC;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:center;
+			}
+			
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY & FULL-WIDTH BAND /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			.bodyContentAlt{
+				/*@editable*/ background-color:#1b2d7c;
+			}
+			
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContentAlt div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContentAlt div a:link, .bodyContentAlt div a:visited, /* Yahoo! Mail Override */ .bodyContentAlt div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.bodyContentAlt img{
+				display:inline;
+				height:auto;
+			}
+			
+
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: SIDEBAR /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Sidebar
+			* @section sidebar style
+			* @tip Set the background color for your email's sidebar area.
+			*/
+			.templateSidebar{
+				/*@editable*/ background-color:#1b2d7c;
+			}
+			
+			/**
+			* @tab Sidebar
+			* @section sidebar text
+			* @tip Set the styling for your email's sidebar text. Choose a size and color that is easy to read.
+			*/
+			.sidebarContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:center;
+			}
+			
+			/**
+			* @tab Sidebar
+			* @section sidebar link
+			* @tip Set the styling for your email's sidebar links. Choose a color that helps them stand out from your text.
+			*/
+			.sidebarContent div a:link, .sidebarContent div a:visited, /* Yahoo! Mail Override */ .sidebarContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:rgb(0, 0, 0);
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.sidebarContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MIDDLE COLUMNS; LEFT, RIGHT /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Middle Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftMidColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Middle Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftMidColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Middle Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column links. Choose a color that helps them stand out from your text.
+			*/
+			.leftMidColumnContent div a:link, .leftMidColumnContent div a:visited, /* Yahoo! Mail Override */ .leftMidColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.leftMidColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Middle Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightMidColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Middle Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightMidColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Middle Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column links. Choose a color that helps them stand out from your text.
+			*/
+			.rightMidColumnContent div a:link, .rightMidColumnContent div a:visited, /* Yahoo! Mail Override */ .rightMidColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.rightMidColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: LOWER COLUMNS; LEFT, CENTER, RIGHT /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Lower Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftLowerColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftLowerColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column links. Choose a color that helps them stand out from your text.
+			*/
+			.leftLowerColumnContent div a:link, .leftLowerColumnContent div a:visited, /* Yahoo! Mail Override */ .leftLowerColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.leftLowerColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerLowerColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerLowerColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section center column link
+			* @tip Set the styling for your email's center column links. Choose a color that helps them stand out from your text.
+			*/
+			.centerLowerColumnContent div a:link, .centerLowerColumnContent div a:visited, /* Yahoo! Mail Override */ .centerLowerColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.centerLowerColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightLowerColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightLowerColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Lower Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column links. Choose a color that helps them stand out from your text.
+			*/
+			.rightLowerColumnContent div a:link, .rightLowerColumnContent div a:visited, /* Yahoo! Mail Override */ .rightLowerColumnContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.rightLowerColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ border-top:0;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.footerContent img{
+				display:inline;
+			}
+
+			.eventSection{
+				color: #1b2d7c !important;
+				margin-bottom: 15px;
+			}
+
+			.eventDate{
+				font-weight: bold;
+				color: #1b2d7c !important;
+				margin-bottom: 0px !important;
+				padding-bottom: 0px !important;
+			}
+
+			.contentSectionBorderTopBottom{
+				border-top: 1px dashed #CCC;
+				margin-top: 20px;
+				padding-top: 20px;
+				border-bottom: 1px dashed #CCC;
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+			}
+			
+			.contentSectionBorderBottom{
+			}
+			
+			.contentSectionNoBorder{
+			}
+
+			.textWhite{
+				color: #FFFFFF !important;
+			}
+
+			hr{
+				border-style: solid !important;
+				border-width: 1px !important;
+				border-color: #DDDDDD !important;
+			}
+			
+			.largerList {
+				font-size: 16px !important;
+				line-height: 1.5 !important;
+			}
+			
+#month {
+	font-size: 29px;
+}
+        </style>
+	</head>
+	<body leftmargin="0" marginheight="0" marginwidth="0" offset="0" topmargin="0">
+		<br/>
+		<center>
+			<table border="0" cellpadding="0" cellspacing="0" height="100%" id="backgroundTable" width="100%">
+				<tbody>
+					<tr>
+						<td align="center" valign="top">
+							<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" width="750">
+								<tbody>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="templateBody" width="565">
+												<tbody>
+													<tr>
+														<td class="templateSidebar" valign="top" width="185">
+															
+                                                            
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="370px">
+																<tbody>
+																	<tr>
+																		<td class="sidebarContent" valign="top">
+																			<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top" style="width:370px; text-align:center;">
+																							
+<img src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/ifma-logo.png" style="margin:0;"/>
+																							
+                                                                                            
+                                                                                            
+<h1 class="h1" style="margin:0; padding:0;">
+	<span id="month">January 2014</span>
+</h1>
+																											
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+														
+                                                        
+                                                        
+                                                        <td valign="top" width="380">
+															
+                                                            
+                                                            
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="380">
+																<tbody>
+																	<tr>
+																		<td valign="top">
+																			<table border="0" cellpadding="0" cellspacing="0" width="380">
+																				<tbody>
+																					<tr>
+																						<td class="bodyContent" valign="top">
+																							
+                                                                                            
+                                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+																								<tbody>
+																									<tr>
+																										<td valign="top">
+																											
+<img src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/ifma-header.jpg" width="380" height="148" style="height:148px;" />
+																											
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td align="center" valign="top">
+											<table border="0" cellpadding="0" cellspacing="0" class="templateBody" width="750">
+												<tbody>
+													<tr>
+														<td class="templateSidebar" valign="top" width="185">
+															<table border="0" cellpadding="0" cellspacing="0" width="185">
+																<tbody>
+																	<tr>
+																		<td class="sidebarContent" valign="top">
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:rgb(226, 226, 226);">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																								<h4 class="h4">
+<a href="https://www.facebook.com/IFMANewYorkCity" target="_blank"><img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/fb.jpg"/></a>
+<a href="http://www.linkedin.com/groups?gid=3773531&mostPopular=&trk=tyah" target="_blank"><img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/linkedin.jpg"/></a>
+<a href="https://twitter.com/ifmanyc" target="_blank"><img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/tw.jpg"/></a>
+<a href="http://statigr.am/ifmanyc" target="_blank"><img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/ins.jpg"/></a>
+<a href="http://www.youtube.com/ifmanyc" target="_blank"><img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/yt.jpg"/></a>
+																								</h4>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+                                                                            <!-- 
+                                                                            <table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#5cb1e5;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																								<h4 class="h4">
+																									NEW TITLES
+																								</h4>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+                                                                            <table border="0" cellpadding="15" cellspacing="0" width="100%" style="background-color:#86bde8;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+<div class="eventSection">
+<a href="#" target="_blank">New Board</a><br />
+<a href="#" target="_blank">World Workplace</a><br />
+<a href="#" target="_blank">Members in the News </a><br />
+<a href="#" target="_blank">Photos</a><br />
+<a href="#" target="_blank">Event Recap</a><br/>
+</div>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+                                                                            -->
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#5cb1e5;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																								<h4 class="h4">
+																									LOCAL EVENTS
+																								</h4>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#86bde8;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																							  <h5 class="h5">JANUARY 2014</h5>
+
+<div class="eventSection">
+	<span class="eventDate">Thursday, January 9</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/january-networking-breakfast-members-only-2/?instance_id=" target="_blank">Monthly Members-Only Networking Breakfast</a>	<br/>
+	8:15 AM – 9:30 AM<br/>
+</div>
+
+<div class="eventSection">
+	<span class="eventDate">Thursday, January 23</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/2013-awards-for-excellence-dinner/?instance_id=1571" target="_blank">2013 Awards for Excellence Dinner</a>	<br/>
+	6:00 PM – 10:00 PM<br/>
+</div>
+
+<h5 class="h5">February 2014</h5>
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Thursday, February 13</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/february-members-only-networking-breakfast/?instance_id=1650" target="_blank">Monthly Members-Only Networking Breakfast</a>	<br/>
+	8:15 AM – 9:30 AM<br/>
+</div>
+<!-- end event -->
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Tuesday, February 18</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/monthly-program-2/?instance_id=1644" target="_blank">Health Law Changes: Construction Issues Impacted by Vermiculite</a>	<br/>
+	5:30 PM – 8:30 PM<br/>
+</div>
+<!-- end event -->
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Thursday, February 27 & Friday, February 28</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/fmp-credential-workshop-operations-and-maintenance/?instance_id=1643" target="_blank">FMP Credential Workshop: Operations and Management</a>	<br/>
+	9:00 AM – 5:00 PM<br/>
+</div>
+<!-- end event -->
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Thursday, February 27</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/professional-members-only-networking-event/?instance_id=" target="_blank">Professional Members-Only Networking Event</a>	<br/>
+	6:00 PM – 8:00 PM<br/>
+</div>
+<!-- end event -->
+
+<h5 class="h5">MARCH 2014</h5>
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Thursday, March 13</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/march-members-only-networking-breakfast/?instance_id=1645" target="_blank">Monthly Members-Only Networking Breakfast</a>	<br/>
+	8:15 AM – 9:30 AM<br/>
+</div>
+<!-- end event -->
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Tuesday, March 18</span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/fire-safety-for-facilities-management-program/?instance_id=1651" target="_blank">Fire Safety for Facilities Management</a>	<br/>
+	5:30 PM – 8:30 PM<br/>
+</div>
+<!-- end event -->
+
+<!-- events -->
+<div class="eventSection">
+	<span class="eventDate">Tuesday, March 25 </span><br/>
+<a href="http://ifmanyc.org/ai1ec_event/new-member-luncheon-2/?instance_id=1648" target="_blank">New Member Luncheon</a>	<br/>
+	12:00 PM – 1:30 PM<br/>
+</div>
+<!-- end event -->
+																						  </div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#5cb1e5;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																								<h4 class="h4">
+																									NATIONAL EVENTS
+																								</h4>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#86bde8;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+<h5 class="h5">APRIL 2014</h5>
+<div class="eventSection">
+	<span class="eventDate">Tuesday, April 15<br />
+	- Thursday, April 17</span><br/>
+<a href="http://www.ifma.org/events/fm-events/event-details/2013/07/30/ifma-facility-fusion-2014---dc" target="_blank">IFMA Facility Fusion 2014</a>	<br/>
+	Washington, D.C.
+</div>
+
+<h5 class="h5">JULY 2014</h5>
+<div class="eventSection">
+	<span class="eventDate">Tuesday, July 15<br />
+	- Wednesday, July 16</span><br/>
+<a href="http://www.ifma.org/events/fm-events/event-details/2013/01/15/ifma-s-advocacy-day-public-policy-forum" target="_blank">IFMA &nbsp;Advocacy Day &amp; Public Policy Forum</a>	<br/>
+	Washington, D.C.
+</div>
+
+<h5 class="h5">SEPTEMBER 2014</h5>
+<div class="eventSection">
+	<span class="eventDate">Wednesday, September 17<br />
+	- Friday, September 19</span><br/>
+<a href="http://www.ifma.org/events/fm-events/event-details/2012/09/19/ifma%27s-world-workplace-conference-expo-2014" target="_blank">World Workplace Conference &amp; Expo 2014</a>	<br/>
+	New Orleans, LA
+</div>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%" style="background-color:#5cb1e5;">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+<br/>
+<h4 class="h4">
+	<a style="color:white;font-weight:bold;text-decoration:none;" href="http://www.ifmanyc.org/join/" target="_blank">BECOME AN<br/>
+	IFMA MEMBER</a>
+</h4>
+<br/>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00" style="text-align:center;">
+<br/>
+<h4 class="h4" style="color:#FFFFFF;">QUICK LINKS</h4>
+<br/>
+<a href="http://www.ifma.org/publications/facility-management-journal" style="color: #ffffff;"><span style="color: #ffffff">Facility Management Journal</span></a><br/>
+
+<a href="http://multibriefs.com/optin.php?ifmane" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">IFMA Regional insider</span></a><br />
+
+<a href="http://www.ifma.org/pv/Core/Orders/category.aspx?catid=30" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">IFMA Bookstore</span></a><br />
+
+<!--new link -->
+<a href="http://www.ifma.org/know-base/research-benchmarks-surveys/facility-management-benchmarking" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">IFMA’s Benchmarks Exchange</span></a><br />
+<!-- end new link -->
+
+
+<a href="http://www.ifmanyc.org/facility-management-professional/" style="color: #ffffff;"><span style="color: #ffffff">FMP Program</span></a><br/>
+
+<!--new link -->
+<a href="http://ifmanyc.org/certified-facility-manager/" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">CFM Program</span></a><br />
+<!-- end new link -->
+
+<!--new link -->
+<a href="http://ifmanyc.org/sustainability-facility-professional/" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">SFP Program</span></a><br />
+<!-- end new link -->
+
+<!--new link -->
+<a href="http://www.pratt.edu/academics/architecture/facilities_management/" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">Pratt FM Program</span></a><br />
+<!-- end new link -->
+
+
+<a href="http://nyrej.com/" style="color: #ffffff;"><span style="color: #ffffff">NY Real Estate Journal</span></a><br/>
+<a href="http://www.perspectiverem.com/indexcurrentissues.html" style="color: #ffffff;"><span style="color: #ffffff">Perspective New York</span></a><br />
+
+<a href="http://ifmanyc.org/wp-content/uploads/2013/11/IFMA-NYC-Membership-Application-2013.pdf" target="_blank" style="color: #ffffff;"><span style="color: #ffffff">Membership Application</span></a><br />
+
+<!--new link -->
+<a href="http://www.ifmanyc.org/register/" target="_blank"  style="color: #ffffff;"><span style="color: #ffffff">Sponsorship</span></a><br />
+<!-- end new link -->
+
+<a href="https://www.facebook.com/IFMANewYorkCity" style="color: #ffffff;"><span style="color: #ffffff">Facebook</span></a><br/>
+<a href="http://www.linkedin.com/groups?gid=3773531&mostPopular=&trk=tyah" style="color: #ffffff;"><span style="color: #ffffff">LinkedIn</span></a><br/>
+<a href="https://twitter.com/ifmanyc" style="color: #ffffff;"><span style="color: #ffffff">Twitter</span></a><br/>
+
+<a href="http://statigr.am/ifmanyc" style="color: #ffffff;"><span style="color: #ffffff">Instagram</span></a><br/>
+
+<a href="http://www.youtube.com/ifmanyc" style="color: #ffffff;"><span style="color: #ffffff">YouTube</span></a>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+														<td valign="top" width="565">
+															<table border="0" cellpadding="0" cellspacing="0" width="565">
+																<tbody>
+																	<tr>
+																		<td valign="top">
+																			<table border="0" cellpadding="0" cellspacing="0" width="565">
+																				<tbody>
+																					<tr>
+																						<td class="bodyContent" valign="top">
+																							<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#5cb1e5;">
+																								<tbody>
+																									<tr>
+																										<td valign="top">
+																											<table border="0" cellpadding="0" cellspacing="0" width="565">
+																												<tbody>
+																													<tr>
+																														<td class="leftMidColumnContent" valign="top" width="380">
+																															<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																																<tbody>
+																																	<tr mc:repeatable="">
+																																		<td valign="top">
+																																			<div mc:edit="tiwc250_content01" style="text-align: center;">
+																																				
+																																			</div>
+																																		</td>
+																																	</tr>
+																																</tbody>
+																															</table>
+																														</td>
+																														<td class="rightMidColumnContent" valign="top" width="185">
+																															<table border="0" cellpadding="0" cellspacing="0" width="100%">
+																																<tbody>
+																																	<tr mc:repeatable="">
+																																		<td valign="top">
+																																			<div mc:edit="tiwc250_content02">
+																																			</div>
+																																		</td>
+																																	</tr>
+																																</tbody>
+																															</table>
+																														</td>
+																													</tr>
+																												</tbody>
+																											</table>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																							<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																								<tbody>
+																									<tr>
+																										<td valign="top">
+																											<div mc:edit="std_content00">
+
+<div class="contentSectionBorderBottom">
+	<table border="0" cellpadding="0" cellspacing="0" width="525">
+	  <tbody>
+			<tr>
+				<td class="leftMidColumnContent" valign="top" width="100%">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div class="blogColumn" mc:edit="tiwc250_content01" style="text-align:left">
+                                    	<h3 class="h3">In This Issue</h3>
+                                        
+                                        
+                                        <a href="http://ifmanyc.org/2014/01/ifma-2013-holiday-party-and-ifma-cares-toy-drive-update/" target="_blank">IFMA 2013 Holiday Party and IFMA Cares Toy Drive Update</a>
+                                        
+                                        
+                                        
+                                        <br />
+                                        
+                      
+                                        
+                            
+                                    	
+                                        
+                                        
+                                        <a href="http://ifmanyc.org/new-members/" target="_blank">New Members</a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<hr/>                                                      <div class="contentSectionBorderBottom">
+	<h3 class="h3">Upcoming Events</h3>
+	<table border="0" cellpadding="0" cellspacing="0" width="525">
+		<tbody>
+			<tr>
+				<td valign="top">
+                <div mc:edit="tiwc250_content02">
+                  
+                    <a href="http://ifmanyc.org/ai1ec_event/2013-awards-for-excellence-dinner/?instance_id=1634" target="_blank"><img class="social" src="http://ifmanyc.org/wp-content/themes/ifmanyc/images/slider/ifma-awards.jpg" width="520" /></a><br /><br />
+				</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>                                                      
+                                                                                                            
+<div class="contentSectionBorderBottom">
+	<table border="0" cellpadding="0" cellspacing="0" width="525">
+		<tbody>
+			<tr>
+				<td class="leftMidColumnContent" valign="top" width="125">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content01">
+<img class="social" src="http://cloud.bermangrp.com/web/clients/ifma/facilitator/1312/president.jpg"/>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td class="rightMidColumnContent" valign="top" width="400">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content02">
+<h3 class="h3">
+	Message from the President
+</h3>
+Dear Members,
+<br />
+<p>Happy New Year! The New York City Chapter of IFMA is off to a great start in 2014 with a full and exciting schedule of events and opportunities.  I encourage you to check the events calendar regularly to stay abreast of Chapter events including networking events, educational programs and facility tours.</p>
+<p>You may have noticed a change to the Chapter logo on our website, social media and email blasts. The new logo is a result of a year-long project to unify and update the IFMA brand internationally (throughout the world?), and was presented to all the Chapters at World Workplace in October. </p>
+<p>Our biggest event of the year, our Annual Awards for Excellence Dinner is only a few weeks away and final planning is in full swing.  We expect this event to be a great success and hope you’ll join us to celebrate the accomplishments of the members you nominated!</p>
+<p>Last month, almost 200 members gathered at our annual Holiday Party at B. Smith’s.  Everyone enjoyed great food, music and conversation, and we collected more than 60 toys and over $1,000 as part of our toy drive to support Fraternite Notre Dame.  Make sure to check out the expanded article with all the photos on our <a href="http://ifmanyc.org/event-photos/fraternite-notre-dame-toy-distribution-12-20-13/">website.</a></p>
+<p>I would like to express my sincere appreciation to Chapter members for their participation and support in 2013 and look forward to our Chapter’s continued growth and increased prominence as the premier organization for Facility Managers and Professionals in the New York City area for the coming year.</p>
+<br />
+Gary Anzalone<br />
+President
+
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<hr/>
+
+
+<!--
+<div class="contentSectionNoBorder">
+	<br />
+	<h3 class="h3">News from National</h3>
+	<table border="0" cellpadding="0" cellspacing="0" width="525">
+		<tbody>
+			<tr>
+				<td class="leftMidColumnContent" valign="top" width="125">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content01">
+<a href="http://www.worldworkplace.org/?utm_campaign=worldworkplace2013&utm_medium=ifma-banner&utm_source=IFMA-website-banner" target="_blank"><img src="http://bermangrp.com/clients/ifma/email/130501e/phillyConf.png" /></a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td class="rightMidColumnContent" valign="top" width="400">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content02">
+<strong>World Workplace Conference &amp; Expo 2013</strong><br />
+October 2 - 4, 2013 | Philadelphia, PA<br />
+Save the Date for IFMA's World Workplace Conference &amp; Expo - is the largest, long-standing and well-respected annual conference and exposition for facility management and related professions.  <a href="http://www.worldworkplace.org/" target="_blank">Click Here to Register</a>.
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<hr/>
+<!--
+<div class="contentSectionNoBorder">
+	<br/>
+	<h3 class="h3">News from National</h3>
+	<table border="0" cellpadding="0" cellspacing="0" width="525">
+		<tbody>
+			<tr>
+				<td class="leftMidColumnContent" valign="top" width="125">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content01">
+<a href="http://www.worldworkplace.org/?utm_campaign=worldworkplace2013&utm_medium=ifma-banner&utm_source=IFMA-website-banner" target="_blank"><img src="http://bermangrp.com/clients/ifma/email/130501e/phillyConf.png"/></a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+				<td class="rightMidColumnContent" valign="top" width="400">
+					<table border="0" cellpadding="0" cellspacing="0" width="100%">
+						<tbody>
+							<tr mc:repeatable="">
+								<td valign="top">
+									<div mc:edit="tiwc250_content02">
+<strong>World Workplace Conference &amp; Expo 2013</strong><br/>
+October 2 - 4, 2013 | Philadelphia, PA<br/>
+Save the Date for IFMA's World Workplace Conference &amp; Expo - is the largest, long-standing and well-respected annual conference and exposition for facility management and related professions.  <a href="http://www.ifma.org/events/fm-events/event-details/2012/09/19/ifma's-world-workplace-conference-expo-2013" target="_blank">Click Here to Register</a>.
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+ -->
+																											</div>
+																										</td>
+																									</tr>
+																								</tbody>
+																							</table>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+
+																</tbody>
+															</table>
+														</td>
+													</tr>
+
+
+
+													<tr>
+														<td class="templateSidebar" valign="top" width="185">
+															<table border="0" cellpadding="0" cellspacing="0" width="185">
+																<tbody>
+																	<tr>
+																		<td class="sidebarContent" valign="top">
+																			<table border="0" cellpadding="5" cellspacing="0" width="100%">
+																				<tbody>
+																					<tr mc:repeatable="">
+																						<td valign="top">
+																							<div mc:edit="tiwc250_content00">
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+														<td colspan="2" valign="top" width="565">
+															<table border="0" cellpadding="0" cellspacing="0" width="565">
+																<tbody>
+																	<tr>
+																		<td class="fullWidthBandContent" valign="top">
+																			<table border="0" cellpadding="20" cellspacing="0" width="100%">
+																				<tbody>
+																					<tr>
+																						<td valign="top">
+																							<div mc:edit="std_content01">
+<strong style="color:#FFFFFF; font-size:14px;">IFMA NYC<br/>
+International Facility Management Association: New York City Chapter</strong><br/>
+Chapter Administrators: The Berman Group, Inc.<br/>
+380 Lexington Avenue, 19th Floor<br/>
+New York, NY 10168<br/>
+Tel (212) 986-1609 | Fax (212) 450-7301<br/>
+<a href="mailto:info@ifmanyc.org">info@ifmanyc.org</a> | <a href="http://www.ifmanyc.org/" target="_blank">www.ifmanyc.org</a>
+																							</div>
+																						</td>
+																					</tr>
+																				</tbody>
+																			</table>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+    </body>
+</html>
