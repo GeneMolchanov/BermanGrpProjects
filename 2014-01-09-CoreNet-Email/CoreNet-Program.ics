@@ -1,0 +1,74 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 12.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20131212T221845Z
+DESCRIPTION:Just How Big is “Big” Data?\nHow Technology and Information
+	 are Changing the Way We Work\n\nIndividuals and organizations are changin
+	g the world with Big Data.  Learn about the new analytics and technology b
+	eing used to understand behavior\, improve operations\, manage risk\, and 
+	support innovation.   \n \nModerator:\n*	Chris Zlocki\, Executive Managing
+	 Director\, Colliers International\n \nPanelist:\n*	Ron Dembo\, Founder an
+	d CEO\, Zerofootprint Software\n*	Andy Howells\, Head of Workplace Consult
+	ancy\, Condeco\n*	Venkat Nagaswamy\, Co-Founder and CEO\, Mimir Data\n\n
+DTEND:20140123T013000Z
+DTSTAMP:20131212T221845Z
+DTSTART:20140122T223000Z
+LAST-MODIFIED:20131212T221845Z
+LOCATION:AppNexus - 28 W. 23rd St.
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:CoreNet Program: Just How Big is "Big" Data?
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000000B6A325EF7CE01000000000000000
+	0100000005367E69D3A15914BBF152A8048092FE7
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 08.00.0681.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calib
+	ri">Just</FONT></SPAN><SPAN LANG="en-us"> <FONT FACE="Calibri">How Big is<
+	/FONT></SPAN><SPAN LANG="en-us"> <FONT FACE="Calibri">“</FONT></SPAN><SP
+	AN LANG="en-us"><FONT FACE="Calibri">Big</FONT></SPAN><SPAN LANG="en-us"><
+	FONT FACE="Calibri">”</FONT></SPAN><SPAN LANG="en-us"><FONT FACE="Calibr
+	i"> Data?</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="C
+	alibri">How Technology and Information are Changing the Way We Work</FONT>
+	</SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Individu
+	als and organizations are changing the world with Big Data.  Learn about 
+	the new analytics and technology being used to understand behavior\, impro
+	ve operations\, manage risk\, and support innovation.   </FONT></SPAN></
+	P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri"> </FONT></SPAN><
+	/P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Calibri">Moderator:</FONT
+	></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2 FACE="Symbol">&
+	#183\;<FONT FACE="Courier New">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;<
+	/FONT></FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"> <FONT FA
+	CE="Calibri">Chris Zlocki\, Executive Managing Director\, Colliers Interna
+	tional</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Cali
+	bri"> </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT FACE="Cal
+	ibri">Panelist:</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT S
+	IZE=2 FACE="Symbol">&#183\;<FONT FACE="Courier New">&nbsp\;&nbsp\;&nbsp\;&
+	nbsp\;&nbsp\;&nbsp\;</FONT></FONT></SPAN><SPAN LANG="en-us"> <FONT FACE="C
+	alibri">Ron Dembo\, Founder and CEO\, Zerofootprint Software</FONT></SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2 FACE="Symbol">&#183\;<F
+	ONT FACE="Courier New">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;</FONT></
+	FONT> <FONT FACE="Calibri">Andy Howells\, Head of Workplace Consultancy\, 
+	Condeco</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2 FA
+	CE="Symbol">&#183\;<FONT FACE="Courier New">&nbsp\;&nbsp\;&nbsp\;&nbsp\;&n
+	bsp\;&nbsp\;</FONT></FONT> <FONT FACE="Calibri">Venkat Nagaswamy\, Co-Foun
+	der and CEO\, Mimir Data</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us
+	"></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-ALLOWEXTERNCHECK:TRUE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
