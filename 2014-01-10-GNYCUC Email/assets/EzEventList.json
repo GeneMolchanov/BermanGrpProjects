@@ -1,0 +1,148 @@
+{
+    "events": [
+      {
+        "date": "10/23/13",
+        "location": [
+          "7 World Trade Center",
+          "250 Greenwich Street",
+          "New York, NY 10007"
+        ],
+        "text": "<a href='/media/2013 GNYCUC_flyer_Going Higher_3.pdf' target='_blank'>Going Higher: The Quest to Dominate The NYC Skyline</a>"
+      },
+      {
+        "date": "11/11/13",
+        "enddate": "11/13/13",
+        "location": [
+          "Hilton El Conquistador Resort",
+          "10000 North Oracle Road",
+          "Tuscon, AZ 85704"
+        ],
+        "text": "<a href='http://www.curt.org/National-Conference-2013.aspx' target='_blank'>2013 CURT National Conference</a>"
+      },
+      {
+        "date": "06/11/13",
+        "location": [
+          "230 Park Avenue, 7th Floor",
+          "New York, NY 10017"
+        ],
+        "text": "<a href='/media/GNYCUC_2013_Chairmans_Reception.pdf'>2013 Chairman’s Reception</a>"
+      },
+      {
+        "date": "4/23/13",
+        "location": [
+          "New York University: Kimmel Center",
+          "60 Washington Square South",
+          "New York, NY 10012"
+        ],
+        "text": "<a href='/media/ConstructionTech2013.pdf'>Construction Tech 2013</a>"
+      },
+      {
+        "date": "3/12/13",
+        "location": [
+          "Scandinavia House",
+          "58 Park Avenue ",
+          "New York, NY 10016"
+        ],
+        "text": "<a href='/media/GNYCUC_Scaffold_Law_2013.pdf'>New York Must Fairly Reform the 'Scaffold Law' to Help Development, Large and Small Contractors, and Job Creation</a>"
+      },
+      {
+        "date": "2/28/13",
+        "location": [
+          "Scandinavia House",
+          "58 Park Avenue ",
+          "New York, NY 10016"
+        ],
+        "text": "<a href='/media/GNYCUC_DevelopmentTrends2013_V3.pdf'>2013 Development Trends And Forecast</a>"
+      },
+      {
+        "date": "12/5/12",
+        "location": [
+          "Columbus Circle, 17th Floor",
+          "New York, NY 10023"
+        ],
+        "text": "<a href='/media/GNYCUC 2012 Winter Party Invite.pdf'>GNYCUC 2012 Holiday Party</a>"
+      },
+      {
+        "date": "10/4/12",
+        "location": [
+          "Scandinavia House",
+          "58 Park Avenue ",
+          "New York, NY 10016"
+        ],
+        "text": "<a href='/media/GNYCUC_2013_Public_Private_Partnerships.pdf'>Public-Private Partnerships: Creating Opportunities By Combining Potentials of The Public And Private Sectors</a> "
+      },
+      {
+        "date": "6/12/12",
+        "location": [
+          "MiMA",
+          "450 West 42nd St. ",
+          "(South Terrace) ",
+          "New York, NY 10036"
+        ],
+        "text": "<a href='/media/GNYCUC_2012_Chairmans_Reception.pdf'>2012 Chairman’s Reception</a>"
+      },
+      {
+        "date": "5/12/11",
+        "location": [
+          "First American Title Insurance of New York<br />633 Third Avenue<br />(Between 40th and 41st Streets)<br />New York, NY 10017"
+        ],
+        "text": "<a href='/media/GNYCUC_HigherEducation invite.pdf'>New Developments in Higher Education</a>"
+      },
+      {
+        "date": "6/14/11",
+        "location": [
+          "Steel Case<br />4 Columbus Circle<br />New York, NY 10019"
+        ],
+        "text": "<a href='/media/GNYCUC_2011_Chairmans_Reception.pdf'>2011 Chairman's Reception</a>"
+      },
+      {
+        "date": "3/30/11",
+        "location": [
+          "First American Title Insurance of America<br />633 Third Avenue<br />(Between 40th and 41st Streets)<br />New York, NY 10017"
+        ],
+        "text": "<a href='/media/GNYCUC_ManagementSuccession.pdf'>Ownership and Management Succession Planning From Generation to Generation</a>"
+      },
+      {
+        "date": "2/17/11",
+        "location": [
+          "First American Title Insurance of New York<br />633 Third Avenue<br />(Between 40th and 41st Streets)<br />New York, NY 10017"
+        ],
+        "text": "<a href='/media/affordable-housing.pdf'>Affordable Housing: Providing Value for Residents and Jobs for New Yorkers</a>"
+      },
+      {
+        "date": "5/8/12",
+        "location": [
+          "The Westin New York at Times Square<br />270 West 43rd Street<br />2nd Floor (Ambassador 3)<br />New York, NY 10037"
+        ],
+        "text": "<a href='/media/2012_Hotel.pdf'>Hotel Development Update 2012: Trends, Segments, Investment and Opportunities</a>"
+      },
+      {
+        "date": "3/28/12",
+        "location": [
+          "First American Title Insurance Company<br />633 Third Avenue, 16th Floor<br />(Between 40th and 41st Streets)<br />New York, NY 10016"
+        ],
+        "text": "<a href='/media/GNYCUC_Managing_2012.pdf'>Hotel Development Update 2012: Trends, Segments, Investment and Opportunities</a>"
+      },
+      {
+        "date": "9/22/11",
+        "location": [
+          "First American Title Insurance Company<br />633 Third Avenue<br />(Between 40th and 41st Streets)<br />New York, NY 10017"
+        ],
+        "text": "<a href='/media/GNYCUC-Cost-Saving.pdf'>Cost Saving Energy Strategies From New York's Leading Owners and Operators</a>"
+      },
+      {
+        "date": "1/23/14",
+        "location": [
+          "The International Gem Tower<br />50 West 47th Street<br />New York, NY 10036"
+        ],
+        "text": "<a href='/media/GNYCUC_Winter2013_Invite.pdf' target='_blank'>GNYCUC 2014 New Year’s Event</a>"
+      },
+      {
+        "date": "3/26/14",
+        "location": [
+          "New York University: Kimmel Center<br />60 Washington Square South<br />New York, NY 10012"
+        ],
+        "text": "<a href='/media/ConstructionTech2014_v6.pdf' target='_blank'>ConstructionTech 2014</a>"
+      }
+    ]
+}

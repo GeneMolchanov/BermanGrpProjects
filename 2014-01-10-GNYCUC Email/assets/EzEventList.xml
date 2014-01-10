@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<EzEventList>
+
+
+	<event>
+		<date>03/26/14</date>
+		<location>New York University: Kimmel Center</location>
+		<location>60 Washington Square South</location>
+		<location>New York, NY 10007</location>
+		<text>&lt;a href=&quot;http://www.gnycuc.org/media/ConstructionTech2014_v6.pdf&quot; target=&quot;_blank&quot;&gt;ConstructionTech 2014&lt;/a&gt;</text>
+	</event>
+
+	<event>
+		<date>10/23/13</date>
+		<location>7 World Trade Center</location>
+		<location>250 Greenwich Street</location>
+		<location>New York, NY 10007</location>
+		<text>&lt;a href=&quot;http://bermangrp.com/clients/gnycuc/email/130911ss/2013%20GNYCUC_flyer_Going%20Higher.pdf&quot; target=&quot;_blank&quot;&gt;Going Higher: The Quest to Dominate The NYC Skyline&lt;/a&gt;</text>
+	</event>
+	<event>
+		<date>11/11/13</date>
+		<enddate>11/13/13</enddate>
+		<location>Hilton El Conquistador Resort</location>
+		<location>10000 North Oracle Road</location>
+		<location>Tuscon, AZ 85704</location>
+		<text>&lt;a href=&quot;http://www.curt.org/National-Conference-2013.aspx&quot; target=&quot;_blank&quot;&gt;2013 CURT National Conference&lt;/a&gt;</text>
+	</event>
+	<event>
+		<date>09/16/13</date>
+		<location>Osborn Law</location>
+		<location>841 Broadway, 5th Floor</location>
+		<location>New York, NY 10003</location>
+		<text>Owner Advisory Board Meeting</text>
+	</event>
+	<event>
+		<date>06/11/13</date>
+		<location>230 Park Avenue, 7th Floor</location>
+		<location>New York, NY 10017</location>
+		<text>2013 Chairman’s Reception</text>
+	</event>
+	<event>
+		<date>4/23/13</date>
+		<location>New York University: Kimmel Center</location>
+		<location>60 Washington Square South</location>
+		<location>New York City, 10012</location>
+		<text>Construction Tech 2013</text>
+	</event>
+	<event>
+		<date>3/12/13</date>
+		<location>Scandinavia House</location>
+		<location>58 Park Avenue </location>
+		<location>New York, NY 10016</location>
+		<text>New York Must Fairly Reform the "Scaffold Law" to Help Development, Large and Small Contractors, and Job Creation</text>
+	</event>
+	<event>
+		<date>2/28/13</date>
+		<location>Scandinavia House</location>
+		<location>58 Park Avenue </location>
+		<location>New York, NY 10016</location>
+		<text>2013 Development Trends And Forecast</text>
+	</event>
+	<event>
+		<date>12/5/12</date>
+		<location>Columbus Circle, 17th Floor</location>
+		<location>New York, NY 10023</location>
+		<text>GNYCUC 2012 Holiday Party</text>
+	</event>
+	<event>
+		<date>10/4/12</date>
+		<location>Scandinavia House</location>
+		<location>58 Park Avenue </location>
+		<location>New York, NY 10016</location>
+		<text>Public-Private Partnerships: Creating Opportunities By Combining Potentials of The Public And Private Sectors </text>
+	</event>
+	<event>
+		<date>6/12/12</date>
+		<location>MiMA</location>
+		<location>450 West 42nd St. </location>
+		<location>(South Terrace) </location>
+		<location>New York, NY 10036</location>
+		<text>2012 Chairman’s Reception</text>
+	</event>
+</EzEventList>
